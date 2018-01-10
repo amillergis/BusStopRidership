@@ -3,19 +3,25 @@ channels:
 - conda-forge
 - defaults
 dependencies:
+- click-plugins=1.0.3=py36_0
+- cligj=0.4.0=py36_0
 - descartes=1.1.0=py36_0
 - geopandas=0.3.0=py36_0
 - libspatialindex=1.8.5=1
+- munch=2.2.0=py36_0
+- pyproj=1.9.5.1=py36_0
 - rtree=0.8.3=py36_0
+- asn1crypto=0.23.0=py36h4639342_0
 - backports=1.0=py36hfa02d7e_1
 - bleach=2.1.1=py36hd521086_0
 - bzip2=1.0.6=h6d464ef_2
 - ca-certificates=2017.08.26=h1d4fec5_0
 - cairo=1.14.10=hdf128ce_6
 - certifi=2017.11.5=py36hf29ccca_0
+- cffi=1.11.2=py36h2825082_0
+- chardet=3.0.4=py36h0f667ec_1
 - click=6.7=py36h5253387_0
-- click-plugins=1.0.3=py36_0
-- cligj=0.4.0=py36_0
+- cryptography=2.1.4=py36hd09be54_0
 - curl=7.55.1=h78862de_4
 - cycler=0.10.0=py36h93f1223_0
 - dbus=1.10.22=h3b5a359_0
@@ -37,6 +43,7 @@ dependencies:
 - hdf5=1.10.1=h9caa474_1
 - html5lib=1.0.1=py36h2f9c1c0_0
 - icu=58.2=h9c2bf20_1
+- idna=2.6=py36h82fb2a8_1
 - intel-openmp=2018.0.0=hc7b2577_8
 - ipykernel=4.7.0=py36h2f9c1c0_0
 - ipython=6.2.1=py36h88c514a_1
@@ -75,7 +82,6 @@ dependencies:
 - matplotlib=2.1.1=py36ha26af80_0
 - mistune=0.8.1=py36h3d5977c_0
 - mkl=2018.0.1=h19d6760_4
-- munch=2.2.0=py36_0
 - nbconvert=5.3.1=py36hb41ffb7_0
 - nbformat=4.4.0=py36h31c9010_0
 - ncurses=6.0=h9df7e31_2
@@ -87,6 +93,7 @@ dependencies:
 - pandoc=1.19.2.1=hea2e7c5_1
 - pandocfilters=1.4.2=py36ha6701b7_1
 - parso=0.1.1=py36h35f843b_0
+- patsy=0.4.1=py36ha3be15e_0
 - pcre=8.41=hc27e229_1
 - pexpect=4.3.0=py36h673ed17_0
 - pickleshare=0.7.4=py36h63277f8_0
@@ -98,12 +105,14 @@ dependencies:
 - prompt_toolkit=1.0.15=py36h17d85b1_0
 - psycopg2=2.7.3.2=py36h2b1659c_0
 - ptyprocess=0.5.2=py36h69acd42_0
+- pycparser=2.18=py36hf9f622e_1
 - pygments=2.2.0=py36h0d3125c_0
+- pyopenssl=17.5.0=py36h20ba746_0
 - pyparsing=2.2.0=py36hee85983_1
-- pyproj=1.9.5.1=py36_0
 - pyqt=5.6.0=py36h0386399_5
 - pysal=1.14.2=py36h29f3eb4_1
 - pyshp=1.2.12=py36h04d6e4e_0
+- pysocks=1.6.7=py36hd97a5b1_1
 - python=3.6.4=hc3d631a_0
 - python-dateutil=2.6.1=py36h88d3b88_1
 - pytz=2017.3=py36h63b9c63_0
@@ -111,7 +120,9 @@ dependencies:
 - qt=5.6.2=h974d657_12
 - qtconsole=4.3.1=py36h8f73b5b_0
 - readline=7.0=ha6073c6_4
+- requests=2.18.4=py36he2e5f8d_1
 - scipy=1.0.0=py36hbf646e7_0
+- seaborn=0.8.1=py36hfad7ec4_0
 - setuptools=36.5.0=py36he42e2e1_0
 - shapely=1.6.2=py36hfae5896_0
 - simplegeneric=0.8.1=py36h2cb9092_0
@@ -119,11 +130,13 @@ dependencies:
 - six=1.11.0=py36h372c433_1
 - sqlalchemy=1.1.13=py36hfb5efd7_0
 - sqlite=3.20.1=hb898158_2
+- statsmodels=0.8.0=py36h8533d0b_0
 - terminado=0.6=py36ha25a19f_0
 - testpath=0.3.1=py36h8cadb63_0
 - tk=8.6.7=hc745277_3
 - tornado=4.5.2=py36h1283b2a_0
 - traitlets=4.3.2=py36h674d592_0
+- urllib3=1.22=py36hbe7ace6_0
 - util-linux=2.21=0
 - wcwidth=0.1.7=py36hdf4376a_0
 - webencodings=0.5.1=py36h800622e_1
@@ -139,5 +152,4 @@ dependencies:
   - jupyter-console==5.2.0
   - jupyter-core==4.4.0
   - prompt-toolkit==1.0.15
-prefix: /home/amiller/anaconda3/envs/BusStopRidership
 
